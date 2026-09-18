@@ -22,19 +22,19 @@ A production platform that runs a live real-estate brokerage end to end — **CR
 
 ### 🌐 The public website
 **Home** — hero search over live inventory
-![Website home](screenshots/d01-website-home.png)
+![Website home](screenshots/d01-website-home.jpg)
 
 **Listings** — live inventory with the on-site assistant
-![Website listings](screenshots/d02-website-listings.png)
+![Website listings](screenshots/d02-website-listings.jpg)
 
 **Property detail** — full spec sheet, gallery, similar listings and enquiry CTA
-![Property detail](screenshots/d03-website-property-detail.png)
+![Property detail](screenshots/d03-website-property-detail.jpg)
 
 **Locality guides** — every serviced colony, written up by the team
-![Locality guides](screenshots/d04-website-localities.png)
+![Locality guides](screenshots/d04-website-localities.jpg)
 
 **Locality detail** — the area in the team's words: getting around, price bands, live listings
-![Locality detail](screenshots/d04b-website-locality-detail.png)
+![Locality detail](screenshots/d04b-website-locality-detail.jpg)
 
 ### 👤 The customer account area (phone-OTP dashboard)
 **Overview** — saved properties, open enquiries, next visit, new matches
@@ -140,7 +140,7 @@ The CRM and website are built mobile-first — the mobile web app is a distinct,
 **Website & customer**
 | Home | Property | Locality guides | Locality detail | Customer dashboard |
 |---|---|---|---|---|
-| ![](screenshots/m01-website-home.png) | ![](screenshots/m02-website-property.png) | ![](screenshots/m28-website-localities.png) | ![](screenshots/m29-website-locality-detail.png) | ![](screenshots/m09-customer-dashboard.png) |
+| ![](screenshots/m01-website-home.jpg) | ![](screenshots/m02-website-property.jpg) | ![](screenshots/m28-website-localities.jpg) | ![](screenshots/m29-website-locality-detail.jpg) | ![](screenshots/m09-customer-dashboard.png) |
 
 **CRM core**
 | Dashboard | Enquiries | Enquiry workspace | Inventory | Property workspace |
