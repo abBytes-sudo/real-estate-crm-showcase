@@ -151,7 +151,6 @@ One accordion sidebar that collapses to an icon rail (⌘B) — more room for th
 ![Amenities master](screenshots/e19-amenities-master.png)
 
 **FAQ CMS** ![FAQ CMS](screenshots/e20-faq-cms.png)
-**Notifications** — per-user panel + web-push opt-in ![Notifications](screenshots/e21-notifications.png)
 
 ---
 
@@ -188,9 +187,9 @@ The CRM and the website are mobile-first — the mobile web app is a distinct, t
 | ![](screenshots/m23-website-analytics.png) | ![](screenshots/m26-drawer-menu.png) | ![](screenshots/m27-roofie.png) |
 
 **Supply, catalogues & compare**
-| List-your-property | Amenities master | FAQ CMS | Notifications | Compare |
-|---|---|---|---|---|
-| ![](screenshots/m33-list-your-property.png) | ![](screenshots/m30-amenities-master.png) | ![](screenshots/m31-faq-cms.png) | ![](screenshots/m32-notifications.png) | ![](screenshots/m34-website-compare.jpg) |
+| List-your-property | Amenities master | FAQ CMS | Compare |
+|---|---|---|---|
+| ![](screenshots/m33-list-your-property.png) | ![](screenshots/m30-amenities-master.png) | ![](screenshots/m31-faq-cms.png) | ![](screenshots/m34-website-compare.jpg) |
 
 ---
 
