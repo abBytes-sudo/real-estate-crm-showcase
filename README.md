@@ -44,6 +44,9 @@ Everything below is real, working software. The CRM screenshots use demo data �
 **Locality detail** — the area in the team's words: getting around, price bands, live listings
 ![Locality detail](screenshots/d04b-website-locality-detail.jpg)
 
+**Compare** — put up to four listings side by side
+![Compare](screenshots/e23-website-compare.jpg)
+
 ### The customer account area (phone-OTP dashboard)
 **Overview** — saved properties, open enquiries, next visit, new matches
 ![Customer dashboard](screenshots/d05-customer-dashboard.png)
@@ -140,6 +143,16 @@ Every call, visit and follow-up across the team, in one queue.
 One accordion sidebar that collapses to an icon rail (⌘B) — more room for the work.
 ![Collapsed sidebar](screenshots/e17-sidebar-collapsed.png)
 
+### Supply, catalogues & more
+**List-your-property** — the owner-supply triage desk (submissions from the website → verify → list)
+![List your property](screenshots/e22-list-your-property.png)
+
+**Amenities master** — the shared amenities catalogue behind the forms, filters, import/export and website tiles
+![Amenities master](screenshots/e19-amenities-master.png)
+
+**FAQ CMS** ![FAQ CMS](screenshots/e20-faq-cms.png)
+**Notifications** — per-user panel + web-push opt-in ![Notifications](screenshots/e21-notifications.png)
+
 ---
 
 ## Mobile
@@ -173,6 +186,11 @@ The CRM and the website are mobile-first — the mobile web app is a distinct, t
 | Website analytics | Collapsible drawer | Roofie assistant |
 |---|---|---|
 | ![](screenshots/m23-website-analytics.png) | ![](screenshots/m26-drawer-menu.png) | ![](screenshots/m27-roofie.png) |
+
+**Supply, catalogues & compare**
+| List-your-property | Amenities master | FAQ CMS | Notifications | Compare |
+|---|---|---|---|---|
+| ![](screenshots/m33-list-your-property.png) | ![](screenshots/m30-amenities-master.png) | ![](screenshots/m31-faq-cms.png) | ![](screenshots/m32-notifications.png) | ![](screenshots/m34-website-compare.jpg) |
 
 ---
 
