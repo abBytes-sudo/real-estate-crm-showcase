@@ -1,6 +1,6 @@
 # Rent A Roof — Real-Estate CRM & Operations Platform
 
-I built this for **Rent A Roof**, a live real-estate brokerage in South Delhi, as a one-man team — design, build and deploy — driven end to end through agentic AI workflows. It started as a way to stop losing leads in spreadsheets and grew into the system the whole company runs on: CRM, property inventory, automatic property↔lead matching, the public website and its CMS, an AI front-desk assistant, deals & closures, and the reporting behind all of it. One system, one login, one source of truth. It's in production today at rentaroof.in.
+I built this for **Rent A Roof**, a live real-estate brokerage in South Delhi, as a one-man team — design, build and deploy — driven end to end through agentic AI workflows. It started as a way to stop losing leads in spreadsheets and grew into the system the whole company runs on: CRM, property inventory, automatic property↔lead matching, the public website and its CMS, an automated front-desk assistant, deals & closures, and the reporting behind all of it. One system, one login, one source of truth. It's in production today at rentaroof.in.
 
 Everything below is real, working software. The screenshots are from a demo build — dummy data and a placeholder brand stand in for the real customers, keys and live branding, all of which I keep out of the public repo.
 
