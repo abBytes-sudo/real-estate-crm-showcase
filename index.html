@@ -89,12 +89,13 @@
   #tourbar .x{border:0;background:none;color:var(--mute);font-size:18px;padding:4px 8px}
   #mobsel{display:none}
   @media (max-width:820px){
-    #app{grid-template-columns:1fr;grid-template-rows:auto auto 1fr}
+    #app{grid-template-columns:1fr}
     #side{display:none}
     #mobsel{display:flex;gap:8px;overflow-x:auto;padding:9px 12px;border-bottom:1px solid var(--line);background:rgba(8,11,20,.6)}
     #mobsel .m{white-space:nowrap;font-size:12.5px;font-weight:600;color:#c3ccdd;border:1px solid var(--line);border-radius:999px;padding:6px 13px;background:rgba(120,150,220,.06)}
     #mobsel .m.active{color:#08121a;background:linear-gradient(100deg,var(--a1),var(--a2));border:0}
-    .chrome .urlbar{display:none}.viewport{padding:10px 10px 0}.botbar{margin:0 10px 10px;flex-wrap:wrap;gap:10px}
+    .chrome .urlbar{display:none}.viewport{padding:10px 10px 0;overflow-y:auto}.botbar{margin:0 10px 10px;flex-wrap:wrap;gap:10px}
+    .screenframe{flex:none}.screenscroll{position:static;height:auto}
     #about{right:10px;left:10px;width:auto}
   }
 </style>
