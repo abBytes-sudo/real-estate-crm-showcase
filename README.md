@@ -7,7 +7,7 @@
 Rent A Roof, a South Delhi property-consultation company, ran sales on Buildesk, a 12-seat subscription CRM (about ₹1.44 lakh a year). Between June and September 2026 I led its move to a self-hosted CRM with an integrated public website: lead pipeline, a 12,152-listing inventory (22 Oct 2026) kept current by Excel and magazine-PDF importers, nightly property↔lead matching, tasks and reminders, deals, a website CMS and analytics.
 
 **Results** (production data from read-only queries, 22–23 Oct 2026)
-- **Organic leads, first 1.5 months after go-live (9 Sep – 23 Oct 2026):** 113 of 383 new leads came in organically, not from paid ads or portals: 45 Instagram DMs, 26 website and Roofie leads, 25 inbound phone calls, 15 WhatsApp messages and 2 others. Instagram and WhatsApp leads are messages the team logged in the CRM; of the 26 website leads, 9 came from Google search. 58 of the 113 organic leads (51%) now have a qualified requirement, against 57 of 258 Meta-ad leads (22%).
+- **Organic leads, first 1.5 months after go-live (9 Sep – 23 Oct 2026):** 113 of 383 new leads came in organically, not from paid ads or portals: 45 Instagram DMs, 27 website and Roofie leads, 25 inbound phone calls, 15 WhatsApp messages and 1 broker referral. Instagram and WhatsApp leads are messages the team logged in the CRM; of the 27 website leads, 9 came from Google search. 58 of the 113 organic leads (51%) now have a qualified requirement, against 57 of 258 Meta-ad leads (22%).
 - **Organic property enquiries, same window:** 16 new leads enquired organically about a specific listing, all through Roofie on the listing page; 8 of them arrived from Google search. Organic Google visitors grew from 14 to 369 a week within a month of the Sep 2026 relaunch.
 - 6,089 legacy lead records and 27,516 history events migrated in one import, 0 rejected (30 Jul 2026).
 - 2,248 property↔lead matches and 2,397 completed tasks in the 30 days to 22 Oct 2026, up from 1,887 matches and 1,014 tasks in the 30 days to 5 Oct.
@@ -47,7 +47,7 @@ What went live or grew after the 9 Sep cutover, with what production shows as of
 
 **Website, CMS & customer accounts.** The public property site is part of the same platform: 6,843 active listings published straight from CRM inventory (22 Oct 2026), searchable listings, locality guides, a compare tray, a phone-OTP customer dashboard, and a CMS for pages, menus, blog, FAQ and testimonials.
 
-**Analytics.** Visitor tracking, campaign funnels for UTM-tagged traffic (visitors → signups → enquiries → qualified → won → revenue), source attribution and per-property engagement.
+**Analytics.** Visitor tracking, campaign funnels for UTM-tagged traffic (visitors → signups → enquiries → qualified → deals won), source attribution and per-property engagement.
 
 ---
 
@@ -150,7 +150,7 @@ Every call, visit and follow-up across the team, in one queue.
 **Reads a free-text brief** — rule-based replies that pull live matches, quote the area's price band, and offer to save the search and book a visit ![Roofie conversation](screenshots/e18b-roofie-conversation.png)
 
 ### Analytics
-**Campaign analytics** — a UTM funnel from visitor to revenue, for UTM-tagged traffic ![Campaign analytics](screenshots/d18-crm-campaign-analytics.png)
+**Campaign analytics** — a UTM funnel from visitor to deal won, for UTM-tagged traffic ![Campaign analytics](screenshots/d18-crm-campaign-analytics.png)
 **Website analytics** — traffic, property demand, visitor journeys ![Website analytics](screenshots/d19-crm-website-analytics.png)
 **Activity manager** ![Activity manager](screenshots/d20-crm-activity.png)
 
