@@ -205,6 +205,6 @@ AI-assisted delivery: I owned the requirements, data migration, testing, go-live
 Laravel · Livewire · Alpine.js · Tailwind CSS · MySQL · PHP 8 · Spatie Media Library · REST APIs · web-push notifications · Knowlarity cloud telephony · DLT SMS
 
 ---
-Developed by **[@abBytes-sudo](https://github.com/abBytes-sudo)** for Rent A Roof · [LinkedIn](https://www.linkedin.com/in/abhishek-m-b934a925a)
+Developed by **[@abBytes-sudo](https://github.com/abBytes-sudo)** for Rent A Roof
 
 © 2026 Abhishek Anand Masih. Write-up and screenshots shared for portfolio review; not licensed for reuse.
