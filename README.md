@@ -258,10 +258,6 @@ Plan a trip picks the most-needed stops in a colony; the surveyor runs it from t
 
 *Plan a trip: the most-needed stops in a colony, spread over two days in block walking order.*
 
-![A field trip in progress, with results arriving stop by stop, ahead of or behind plan](screenshots/c03-trip-in-progress.jpg)
-
-*A trip in progress (demo): results arrive stop by stop, ahead of or behind plan.*
-
 <p align="center">
   <img src="screenshots/c03-m-field-trip.jpg" alt="The surveyor's phone: the next stop with Directions and I'm here, then the stops in block order" width="280"><br>
   <em>The surveyor's phone: next stop, Directions, “I'm here”, stops in block order.</em>
