@@ -272,6 +272,43 @@ Plan a trip picks the most-needed stops in a colony; the surveyor runs it from t
 - A trip is sized from the **per-stop minutes and trip day (with lunch) set in Settings**; if it runs long it offers more days or fewer stops.
 - A To-Let board seen on a trip is matched by **phone, colony, house no. and floor**, or becomes a new listing.
 
+### Trips and site visits (Survey master): *every trip in view, every property marked.*
+
+> **Capabilities** · built 31 Oct – 2 Nov 2026
+
+The Trips tab now opens on every trip, not just this week's, and a trip shows as out only once work on the ground has started. Closing a client's site visit asks about each property in turn.
+
+![Survey master Trips tab as a list: visits waiting for a trip, then planned, out now and done trips, each with who, when, where the visits came from, progress and time](screenshots/c10-trips-list.jpg)
+
+*Trips › List: every trip by default, from last week's finished trips to next week's two-day trip, grouped Waiting, Planned, Out now and Done (demo data).*
+
+| ![The Trips board: Waiting, Planned, Out now and Done columns of trip cards](screenshots/c10-trips-board.jpg) | ![The Trips calendar: one week, person by day, with arrows to the previous and next week](screenshots/c10-trips-calendar.jpg) |
+|---|---|
+| Board: the same trips as columns, grouped by when, type or person. | Calendar: one week at a time, with ‹ › arrows; each person's trips sit beside their client visits. |
+
+![A trip out now: checked, verified, not available and couldn't-get-in counts, the stops block by block with each result, and the pace and live feed on the right](screenshots/c10-trip-stops.jpg)
+
+*A trip out now: it turned Out now at its first stop answered, results land stop by stop, and the side panel keeps the pace and a live feed from the field (demo data).*
+
+| <img src="screenshots/c10-visit-outcome.jpg" alt="Site visit complete in the task drawer: each of three properties with Visited and Not visited buttons, none picked, 0 of 3 marked" width="230"> | <img src="screenshots/c10-visit-outcome-marked.jpg" alt="The same step with one property Visited, one Not visited with its reason chips, and one still unmarked" width="230"> | <img src="screenshots/c10-m-visit-outcome.jpg" alt="Site visit complete on a phone: Visited and Not visited for each property, 0 of 3 marked" width="230"> |
+|:---:|:---:|:---:|
+| Site visit complete: Visited or Not visited for each property, nothing pre-picked. | Each property gets an answer; one not visited asks why (demo data). | The same step on a phone. |
+
+| <img src="screenshots/c10-m-trips.jpg" alt="The Trips tab on a phone: Waiting visits, then Planned, Out now and Done trips" width="260"> | <img src="screenshots/c10-trips-dates.jpg" alt="Trips filters: Dates with All dates, This week, Last week, This month, Last 30 days and Pick dates, then Who, Colony, Kind and Length" width="260"> |
+|:---:|:---:|
+| Trips on a phone: the same groups; dates live in Filters. | Filters › Dates: all dates, this week, last week, this month, the last 30 days or picked dates. |
+
+**What makes it different**
+- **Every trip by default** (31 Oct 2026). List and Board are no longer limited to one week; Filters › Dates sets the range, and only the Calendar steps week by week. A trip that set off on an earlier day shows that day and the time with AM/PM.
+- **Out now means work has started** (2 Nov 2026). A trip turns Out now at its first stop updated or verified; pressing Start alone leaves it Planned.
+- **No pre-ticked site visits** (2 Nov 2026). Completing a site visit asks Visited or Not visited for every property, nothing pre-picked, so a stop nobody saw can't be recorded as visited by default. Every property must be marked, and each one not visited needs a reason, before the review step. The same step opens from Tasks, the enquiry and the listing, on desktop and phone.
+
+The desk's other tabs, as they look on 6 Nov 2026 (demo data):
+
+| ![Survey master To do tab: due, assigned, overdue and fresh counts above checks grouped Overdue, Today and Tomorrow](screenshots/c10-survey-todo.jpg) | ![Survey master Coverage tab: freshness counts, then one tile per colony with fresh shares by rent and sale](screenshots/c10-survey-coverage.jpg) | ![Survey master Results tab: who needs a look this week, then verified, priced and not-available counts by person](screenshots/c10-survey-results.jpg) |
+|---|---|---|
+| To do | Coverage | Results |
+
 ---
 
 ## 04 · People & calling
