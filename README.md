@@ -146,6 +146,10 @@ Each issue's PDFs are read line by line and matched against live stock. People d
 
 **1,463** free-text searches by **8 staff**, 6–22 Oct 2026.
 
+![Staff inventory search: the sentence "3 bhk vasant vihar under 1.5 lakh" turned into filter chips above the results](screenshots/c02-search-free-text.jpg)
+
+*“3 bhk vasant vihar under 1.5 lakh” becomes filter chips: 3 BHK · Vasant Vihar · rent up to ₹1.5 L.*
+
 ![Staff search reading the desk shorthand "3 bhk defence colony gf" as 3 BHK, Defence Colony, ground floor](screenshots/c02-search-desk-shorthand.jpg)
 
 *Desk shorthand: “3 bhk defence colony gf” reads as 3 BHK · Defence Colony · Ground floor.*
@@ -229,6 +233,10 @@ Every listing has a freshness clock (rent 30 days, sale 45). Lapsing stock becom
 ### The desk runs on *the manager's rules.*
 
 > **Capabilities:** auto-assign · week planner
+
+![Survey master Settings, Who surveys what: per-person property types, deals, colonies, working days, hours and daily capacity](screenshots/c03-survey-settings.jpg)
+
+*Settings › Who surveys what: what each person takes, sees and covers (property types, deals, colonies), plus days, hours and daily capacity; minutes per call, visit stop and shoot are set here too, and auto-assign of waiting visits ships off.*
 
 ![Week planner proposing each person's share of next week with "Suggest a split for everyone"](screenshots/c03-week-planner.jpg)
 
@@ -614,6 +622,10 @@ Five ready-made recipes on one engine: site-visit confirmation and reminder, wel
 
 Six tabs on every lead: **Tasks, Property search, Buckets, Verifications & surveys, Engagement** and **Timeline**.
 
+![Enquiry workspace for a demo client: contact card and pinned remark on the left, the Engagement tab in the middle, the team's notes on the right](screenshots/c05-enquiry-workspace.jpg)
+
+*The enquiry workspace (demo client): contact card and pinned remark, flags and tags, stage and work-state, and the Engagement tab with what the client did on the website.*
+
 ### Every number *opens its list.*
 
 ![CRM dashboard with Today's brief and Act now tiles](screenshots/c05-dashboard.jpg)
@@ -655,9 +667,9 @@ Six tabs on every lead: **Tasks, Property search, Buckets, Verifications & surve
 
 **2,248** property-to-lead matches in the 30 days to 22 Oct 2026 (**1,887** on 5 Oct).
 
-![Buckets tab: a custom Over budget, ask owner bucket, the automatic Enquired bucket and Shared](screenshots/c05-buckets.jpg)
-
-*Buckets: a custom “Over budget · ask owner”, the automatic Enquired bucket and Shared, with how far each listing sits from the budget.*
+| ![Property search for a lead, opened filtered from the brief, ranking 11 matches by percentage fit](screenshots/c05-property-search.jpg) | ![Buckets tab: a custom Over budget, ask owner bucket, the automatic Enquired bucket and Shared](screenshots/c05-buckets.jpg) |
+|---|---|
+| Property search opens filtered from the brief and ranks 11 matches by % fit, with how fresh each listing's check is (demo data). | Buckets: a custom “Over budget · ask owner”, the automatic Enquired bucket and Shared, with how far each listing sits from the budget. |
 
 <p align="center">
   <img src="screenshots/c05-m-verifications.jpg" alt="Verifications on a phone, sorted into available, not available, in progress and not asked yet" width="280"><br>
