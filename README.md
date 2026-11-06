@@ -12,9 +12,9 @@
 |---|---|---|---|
 | Operations & CRM lead · AI-assisted build | [rentaroof.in](https://rentaroof.in) | [Interactive demo](https://abbytes-sudo.github.io/real-estate-crm-showcase/) (click through the screens) | Laravel · Filament · Livewire · MySQL · self-hosted |
 
-| **9 Sep** | **113** | **2,397** |
+| **9 Sep** | **147** | **2,397** |
 |---|---|---|
-| 2026 production cutover, 3 months after work began | organic leads (not paid ads) of 383 new, 9 Sep–23 Oct 2026 | tasks completed in the 30 days to 22 Oct 2026 |
+| 2026 production cutover, 3 months after work began | organic leads (not paid ads) of 496 new, 9 Sep–6 Nov 2026 | tasks completed in the 30 days to 22 Oct 2026 |
 
 > **Case study PDF.** This page tells the same story as my 36-page PDF case study, *Real Estate Platform — CRM & operations*, chapter for chapter (01–09 below, then Results and My role), with more screens. The PDF itself is not in this repo; ask for it through the contact details on my [GitHub profile](https://github.com/abBytes-sudo).
 
@@ -51,14 +51,14 @@
 
 ### One self-hosted CRM. *Six parts that feed each other.*
 
-**7,758** URLs in the public sitemap on 23 Oct 2026, built from CRM data (6,840 of them listing pages) and refreshed daily.
+**7,474** URLs in the public sitemap on 6 Nov 2026, built from CRM data (6,561 of them listing pages) and refreshed daily.
 
 ```mermaid
 flowchart LR
   MAG["Two monthly magazines<br/>read from PDF"] --> INV
-  INV["Inventory<br/>12,152 live listings (22 Oct 2026)"] -->|"listings publish from stock"| WEB["Website<br/>6,843 listings published<br/>straight from the CRM (22 Oct)"]
+  INV["Inventory<br/>12,152 live listings (22 Oct 2026)"] -->|"listings publish from stock"| WEB["Website<br/>6,564 listings published<br/>straight from the CRM (6 Nov)"]
   WEB -->|"on-site chat"| ROOF["Roofie inbox<br/>scripted enquiry assistant,<br/>human takeover in one click"]
-  ROOF -->|"chats become enquiries"| LEADS["Leads and enquiries<br/>6,089 migrated (30 Jul 2026)<br/>383 new leads, 9 Sep–23 Oct 2026"]
+  ROOF -->|"chats become enquiries"| LEADS["Leads and enquiries<br/>6,089 migrated (30 Jul 2026)<br/>496 new leads, 9 Sep–6 Nov 2026"]
   LEADS -->|"follow-ups and site visits"| TASKS["Tasks and calling queues<br/>2,397 tasks completed in<br/>the 30 days to 22 Oct"]
   TASKS -->|"click-to-call"| TEL["Telephony and SMS<br/>cloud IVR and DLT SMS,<br/>click-to-call from the CRM"]
   INV --> CORE(("CRM core<br/>self-hosted<br/>Laravel · Filament<br/>Livewire · MySQL"))
@@ -70,9 +70,9 @@ flowchart LR
 | Part | What it holds |
 |---|---|
 | Inventory | 12,152 live listings (22 Oct 2026), fed by two monthly magazines read from PDF |
-| Website | 6,843 listings published straight from the CRM (22 Oct) |
+| Website | 6,564 listings published straight from the CRM (6 Nov) |
 | Roofie inbox | Scripted enquiry assistant, human takeover in one click |
-| Leads & enquiries | 6,089 migrated (30 Jul 2026); 383 new leads, 9 Sep–23 Oct 2026 |
+| Leads & enquiries | 6,089 migrated (30 Jul 2026); 496 new leads, 9 Sep–6 Nov 2026 |
 | Tasks & calling queues | 2,397 tasks completed in the 30 days to 22 Oct |
 | Telephony & SMS | Cloud IVR and DLT SMS, click-to-call from the CRM |
 
@@ -206,7 +206,7 @@ Every listing has a freshness clock (rent 30 days, sale 45). Lapsing stock becom
 
 ### Call mode: one owner, the facts, *one tap per outcome.*
 
-**199 owner calls in 3 days.** First three days, **21–23 Oct 2026**: 3 callers, 88 owner numbers, 43 calls connected.
+**1,448 owner calls in 16 days.** First 16 days, **21 Oct – 5 Nov 2026**: 6 callers, 765 owner numbers, 490 calls connected.
 
 ![Owner call mode: the owner, the listing's facts, the last remark, one-tap outcome buttons and a timer against the per-listing aim](screenshots/c03-call-mode.jpg)
 
@@ -278,9 +278,9 @@ Plan a trip picks the most-needed stops in a colony; the surveyor runs it from t
 
 ### Every follow-up in one list, *overdue first.*
 
-| **2,397** | **1,551** |
+| **2,397** | **1,362** |
 |---|---|
-| tasks completed in the 30 days to 22 Oct 2026 (1,608 client work + 789 listing checks), against **1,014** in the 30 days to 5 Oct, before listing checks began | follow-up call tasks completed in the 30 days to 23 Oct 2026 |
+| tasks completed in the 30 days to 22 Oct 2026 (1,608 client work + 789 listing checks), against **1,014** in the 30 days to 5 Oct, before listing checks began | follow-up call tasks completed in the 30 days to 6 Nov 2026 |
 
 ![Tasks list: one row per task with the client, brief, last call outcome, how late it is, and Reschedule all on the overdue group](screenshots/c04-tasks-list.jpg)
 
@@ -368,9 +368,9 @@ Plan a trip picks the most-needed stops in a colony; the surveyor runs it from t
 
 *04 · People & calling, continued.* Press Play on an enquiry queue, or start an owner call list, and the CRM keeps the caller's place: the next lead or owner, its history and its number are already on screen, the call is logged beside it, and a banner brings the caller back to the same call after a full edit. These are descriptions of how the screens work; no time saving has been measured, so none is claimed.
 
-| **1,551** | **199** |
+| **1,362** | **1,448** |
 |---|---|
-| follow-up call tasks completed in the 30 days to 23 Oct 2026 (all follow-up calls, not only those made from queues) | owner calls in call mode's first 3 days (21–23 Oct 2026), by 3 callers, reaching 88 owner numbers; 43 connected |
+| follow-up call tasks completed in the 30 days to 6 Nov 2026 (all follow-up calls, not only those made from queues) | owner calls in call mode's first 16 days (21 Oct – 5 Nov 2026), by 6 callers, reaching 765 owner numbers; 490 connected |
 
 ### Call, log, edit, *back on the same call.*
 For enquiry follow-ups: the next lead, its history and its number are **already on screen**.
@@ -473,7 +473,7 @@ For listing checks: the owner's answers go **straight into the listing** during 
 - **Outcomes write back:** new-lead work-state, owner if unowned, “Not Picking” after 3 misses.
 - Open a lead mid-queue; **a banner returns you** to “call X of Y”.
 
-**Status · production, to 23 Oct 2026:** 4 queues run (2 completed) · 1,551 follow-up call tasks done in 30 days (not all from queues) · 199 owner calls in 3 days, 21–23 Oct 2026.
+**Status · production, to 6 Nov 2026:** 4 queues run (2 completed) · 1,362 follow-up call tasks done in 30 days (not all from queues) · 1,448 owner calls in 16 days, 21 Oct – 5 Nov 2026.
 
 Before calling queues, the brokerage's lead lists were exported to Excel, split per caller or team, edited and sent round again. Calling queues replace that export-to-Excel routine: an admin sets the audience and who works it inside the CRM, callers work the list on the calling screen, and each call's outcome goes straight back onto the lead. No time saving has been measured, so none is claimed here.
 
@@ -512,10 +512,10 @@ The same idea, for keeping listings current.
 - **Time estimates:** 4 minutes a call, 15 a visit stop, 45 a shoot (editable); one owner with three listings counts as one call.
 - **End-of-day roll:** unfinished flexible call checks move to the person's next unplanned time instead of piling up as overdue.
 
-### Numbers (to 23 Oct 2026)
+### Numbers (to 6 Nov 2026)
 - 4 calling queues run (2 completed, 2 active).
-- 1,551 follow-up call tasks completed in the 30 days to 23 Oct 2026 (all follow-up calls, not only those made from queues).
-- Owner calling: 199 owner calls in its first 3 days (21–23 Oct) by 3 callers, reaching 88 owner numbers; 43 connected.
+- 1,362 follow-up call tasks completed in the 30 days to 6 Nov 2026 (all follow-up calls, not only those made from queues).
+- Owner calling: 1,448 owner calls in its first 16 days (21 Oct – 5 Nov) by 6 callers, reaching 765 owner numbers; 490 connected.
 - Listing checks: 789 of 815 check tasks done since the desk opened (to 22 Oct); 1,644 listings verified in all (1,099 on 5 Oct).
 
 ### Limits and what is not built yet
@@ -674,54 +674,55 @@ Six tabs on every lead: **Tasks, Property search, Buckets, Verifications & surve
 
 ## 06 · Where the leads come from
 
-### 383 new leads in 1.5 months. *113 came organically, not from paid ads.*
+### 496 new leads in about 2 months. *147 came organically, not from paid ads.*
 
-<sub>New leads created 9 Sep 2026 (cutover) to 23 Oct 2026; imported legacy leads excluded; production, read 23 Oct 2026.</sub>
+<sub>New leads created 9 Sep 2026 (cutover) to 6 Nov 2026; imported legacy leads excluded; production, read 6 Nov 2026.</sub>
 
-**All 383 new leads, by source**
+**All 496 new leads, by source**
 
-| Meta ads | Organic | Manual entries | Walk-in |
-|---:|---:|---:|---:|
-| 258 | **113** | 11 | 1 |
+| Meta ads | Organic | Manual entries | Google ad | Walk-in |
+|---:|---:|---:|---:|---:|
+| 334 | **147** | 13 | 1 | 1 |
 
-**The 113 organic leads, by source**
+**The 147 organic leads, by source**
 
 | Source | Leads | |
 |---|---:|---|
-| Instagram DMs | 45 | ████████████████████ |
-| Website & Roofie | 27 | ████████████ |
-| Inbound phone calls | 25 | ███████████ |
-| WhatsApp messages | 15 | ███████ |
+| Instagram DMs | 55 | ████████████████████ |
+| Inbound phone calls | 33 | ████████████ |
+| Website & Roofie | 32 | ████████████ |
+| WhatsApp messages | 24 | █████████ |
+| Customer sign-ups | 2 | █ |
 | Broker referral | 1 | ▏ |
 
 **Now have a qualified requirement**
 
 | | Qualified |
 |---|---|
-| Organic leads | **51%** · 58 of 113 |
-| Meta-ad leads | **22%** · 57 of 258 |
+| Organic leads | **58%** · 85 of 147 |
+| Meta-ad leads | **23%** · 78 of 334 |
 
-**51% vs 22%:** organic leads qualify **more than twice as often** as Meta-ad leads.
+**58% vs 23%:** organic leads qualify **more than twice as often** as Meta-ad leads.
 
 ![The How they found us card on an enquiry: channel Google search, Organic, and capture Roofie, Property enquiry](screenshots/c06-how-they-found-us.jpg)
 
 *The mechanism: every enquiry carries “How they found us”. The channel (Google search · Organic) is kept apart from the capture (Roofie · Property enquiry), so the search engine keeps the credit (demo record).*
 
-**Organic** = the CRM's own source category: everything except paid ads, portals, walk-ins and manual entries. By its channel logic 1 website lead had clicked a Meta ad, so 112 are not linked to any ad. Instagram and WhatsApp leads are messages logged by staff.
+**Organic** = the CRM's own source category: everything except paid ads, portals, walk-ins and manual entries. By its channel logic 2 website leads had clicked a Meta ad, so 145 are not linked to any ad. Instagram and WhatsApp leads are messages logged by staff.
 
-### 27 leads came through the website and Roofie; *16 asked about a specific listing.*
+### 32 leads came through the website and Roofie; *20 asked about a specific listing.*
 
-| **27** | **16** | **37%** |
+| **32** | **20** | **53%** |
 |---|---|---|
-| website and Roofie leads: Roofie property enquiry 17, Roofie chat 8, website form 2 | new leads asked about **one listing** organically, via Roofie; **8** from Google search | of the 27 (10 leads) now have a qualified requirement |
+| website and Roofie leads: Roofie property enquiry 22, Roofie chat 8, website form 2 | new leads asked about **one listing** organically, via Roofie; **11** from Google search | of the 32 (17 leads) now have a qualified requirement |
 
-**How the 27 arrived · the CRM's channel logic**
+**How the 32 arrived · the CRM's channel logic**
 
-| Google search | Came straight to the site | Instagram links | Facebook link | Other tagged link | Meta ad |
+| Google search | Came straight to the site | Instagram links | Facebook link | Other tagged links | Meta ads |
 |---:|---:|---:|---:|---:|---:|
-| 9 | 9 | 6 | 1 | 1 | 1 |
+| 12 | 9 | 6 | 1 | 2 | 2 |
 
-**Of the 27, 26 are organic** (1 had clicked a Meta ad). Only those 26 (9 from Google search) are website- or SEO-attributable. All figures 9 Sep–23 Oct 2026, read 23 Oct.
+**Of the 32, 30 are organic** (2 had clicked a Meta ad). Only those 30 (12 from Google search) are website- or SEO-attributable. All figures 9 Sep–6 Nov 2026, read 6 Nov.
 
 | <img src="screenshots/c06-m-roofie-listing-enquiry.jpg" alt="Roofie on a listing page on a phone, sending an enquiry for listing VAV72 and noting the visitor's brief" width="260"> | <img src="screenshots/c06-m-lead-journey.jpg" alt="The new lead in the CRM on a phone: open tasks, shared listings, survey and site visit above the requirement" width="260"> |
 |:---:|:---:|
@@ -764,9 +765,9 @@ Six tabs on every lead: **Tasks, Property search, Buckets, Verifications & surve
 ### Roofie answers first. *A person takes over in one click.*
 Roofie is a **scripted, rule-based enquiry assistant** on the website. Its chats land in this CRM inbox with the visitor's web activity.
 
-| **87** | **90%** | **28** | **43** |
+| **119** | **85%** | **35** | **51** |
 |---|---|---|---|
-| website chats, 7 Sep–23 Oct 2026 | of them (78) never needed an agent | became or joined an enquiry | of the 83 chats since go-live (9 Sep) began on a listing page |
+| website chats, 7 Sep–6 Nov 2026 | of them (101) never needed an agent | became or joined an enquiry | of the 115 chats since go-live (9 Sep) began on a listing page |
 
 ![The Roofie inbox: a visitor who asked for a person marked Waiting, with a Take over button](screenshots/c08-roofie-inbox.jpg)
 
@@ -783,25 +784,27 @@ Roofie is a **scripted, rule-based enquiry assistant** on the website. Its chats
 - Roofie tags the lead and notes why, but **never marks it qualified**.
 - Staff's own chats are **left out of every count**.
 
-### Organic Google visitors grew from 14 to 369 a week *within a month of relaunch.*
+### Engaged visitors from Google search grew from 26 to 103 a week *within two months of relaunch.*
 
-| **1,309** | **1,381** |
+| **43%** | **499** |
 |---|---|
-| engaged visitors in the 30 days to 23 Oct 2026, averaging **3 min 24 s** | visitors from Google organic search since 11 Sep 2026; **599** landed on listing pages |
+| of engaged visitors in the 30 days to 6 Nov 2026 came from Google search (375 of 880), up from 22% in the 30 days to 23 Oct | engaged visitors from Google search since 11 Sep 2026, averaging **5 min 35 s** |
 
-**Organic Google visitors per week** · first-party tracker · IST weeks
+**Engaged visitors from Google search, per week** · first-party tracker · IST weeks · engaged = measurable time on the site
 
 | Week | Dates | Visitors | |
 |---|---|---:|---|
-| W37\* | 11–13 Sep | 14 | █ |
-| W38 | 14 Sep | 73 | ████ |
-| W39 | 21 Sep | 305 | █████████████████ |
-| **W40** | **28 Sep** | **369** | **████████████████████** |
-| W41 | 5 Oct | 263 | ██████████████ |
-| W42 | 12 Oct | 228 | ████████████ |
-| W43\* | 19–23 Oct | 128 | ███████ |
+| W37\* | 11–13 Sep | 3 | █ |
+| W38 | 14 Sep | 26 | █████ |
+| W39 | 21 Sep | 34 | ███████ |
+| W40 | 28 Sep | 41 | ████████ |
+| W41 | 5 Oct | 89 | █████████████████ |
+| W42 | 12 Oct | 77 | ███████████████ |
+| W43 | 19 Oct | 79 | ███████████████ |
+| **W44** | **26 Oct** | **103** | **████████████████████** |
+| W45\* | 2–6 Nov | 47 | █████████ |
 
-<sub>\*Part weeks: the tracker went live on 11 Sep; W43 runs to 23 Oct.</sub>
+<sub>\*Part weeks: the tracker went live on 11 Sep; W45 runs to 6 Nov. Raw Google-referred counts are not quoted: they include automated desktop bursts with almost no time on the site.</sub>
 
 ![Website analytics heat map of visitors by hour of day and by weekday](screenshots/c08-visits-by-hour.jpg)
 
@@ -814,7 +817,7 @@ Roofie is a **scripted, rule-based enquiry assistant** on the website. Its chats
 **What makes it different**
 - Website searches naming a colony feed the verification desk's **‘Most wanted’ sort**, so checks can follow demand.
 - Demand flags colonies searched at **twice their share of stock**, or with none.
-- Reports **filter out known bots and signed-in staff**; total visitor counts still aren't quoted, as crawlers inflate them.
+- Reports **filter out known bots and signed-in staff**; total visitor counts aren't quoted and Google figures count engaged visitors only, as crawlers inflate raw counts.
 
 ### Campaign links tagged one way, *followed to qualified and won.*
 
@@ -822,9 +825,9 @@ Roofie is a **scripted, rule-based enquiry assistant** on the website. Its chats
 
 *Campaign funnel per UTM tag: visitors, signups, enquiries, qualified and won (demo data).*
 
-| **261** | **8** |
+| **261** | **11** |
 |---|---|
-| enquiries carry an ad-campaign (UTM) tag, to 22 Oct 2026; near zero before Oct | owner submissions since the form went live on 20 Sep 2026: 7 reviewed, 4 listed, 3 dropped, 1 new; all rentals (23 Oct 2026) |
+| enquiries carry an ad-campaign (UTM) tag, to 22 Oct 2026; near zero before Oct | owner submissions since the form went live on 20 Sep 2026: 10 reviewed, 6 listed, 4 dropped, 1 new; all rentals (6 Nov 2026) |
 
 ![The UTM link builder form with locked presets](screenshots/c08-utm-builder.jpg)
 
@@ -906,11 +909,11 @@ What the business changes **without a developer**, from screens inside the CRM.
 
 | | |
 |---|---|
-| **2,397** tasks completed in the 30 days to 22 Oct; **1,014** in the 30 days to 5 Oct | **113 of 383** new leads came organically, not from paid ads, 9 Sep–23 Oct 2026 |
-| **51% vs 22%** organic vs Meta-ad leads now qualified (23 Oct 2026) | **16** new leads asked organically about a specific listing, 9 Sep–23 Oct 2026; **8** from Google search |
-| **1,551** follow-up call tasks completed in the 30 days to 23 Oct 2026 | **16,441** listings refreshed from 2 magazine issues (dashboard, 23 Oct 2026) |
-| **1,644** listings verified to 22 Oct; **1,099** on 5 Oct | **199** owner calls in the calling screen's first 3 days, 21–23 Oct 2026 |
-| **14 → 369** organic Google visitors a week, W37 to W40 2026 | **87** Roofie chats since 7 Sep; **90%** never needed an agent (23 Oct 2026) |
+| **2,397** tasks completed in the 30 days to 22 Oct; **1,014** in the 30 days to 5 Oct | **147 of 496** new leads came organically, not from paid ads, 9 Sep–6 Nov 2026 |
+| **58% vs 23%** organic vs Meta-ad leads now qualified (6 Nov 2026) | **20** new leads asked organically about a specific listing, 9 Sep–6 Nov 2026; **11** from Google search |
+| **1,362** follow-up call tasks completed in the 30 days to 6 Nov 2026 | **16,441** listings refreshed from 2 magazine issues (dashboard, 23 Oct 2026) |
+| **1,644** listings verified to 22 Oct; **1,099** on 5 Oct | **1,448** owner calls in the calling screen's first 16 days, 21 Oct – 5 Nov 2026 |
+| **26 → 103** engaged visitors from Google search a week, W38 to W44 2026 | **119** Roofie chats since 7 Sep; **85%** never needed an agent (6 Nov 2026) |
 
 > **Built, not yet used:** SMS campaigns & automations (0 sent) · deal approvals (0) · field trips & visit requests (0) · requirement auto-assignment (off)
 
@@ -927,7 +930,7 @@ What the business changes **without a developer**, from screens inside the CRM.
 - **Operations & CRM lead at the brokerage since 2022;** helped grow the team from 3 to 15.
 - **Moved the old CRM's data in one import:** 6,089 lead records and 27,516 history events, 0 rejected (30 Jul 2026).
 - **Kept shipping after go-live:** the verification desk opened 9–11 Oct, the owner-calling screen on 21 Oct 2026.
-- **Measured where leads come from:** 113 of 383 new leads in 1.5 months came organically, and organic leads qualify at 51%, against 22% for Meta-ad leads (to 23 Oct 2026).
+- **Measured where leads come from:** 147 of 496 new leads in about 2 months came organically, and organic leads qualify at 58%, against 23% for Meta-ad leads (to 6 Nov 2026).
 
 Earlier versions of the brokerage's website were built by outside teams I coordinated.
 
@@ -1155,7 +1158,7 @@ Full screens from the same demo build: the earlier screen tour, plus the October
 
 ![List-your-property triage desk](screenshots/e22-list-your-property.png)
 
-*List-your-property: the owner-supply triage desk (submissions from the website → verify → list); 8 owner submissions arrived between 20 Sep and 23 Oct 2026, and the team has marked 4 of them as listed.*
+*List-your-property: the owner-supply triage desk (submissions from the website → verify → list); 11 owner submissions arrived between 20 Sep and 6 Nov 2026, and the team has marked 6 of them as listed.*
 
 ### Mobile
 The CRM and the website are mobile-first: the mobile web app is a distinct, touch-native design, not a shrunk desktop.
