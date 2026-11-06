@@ -667,9 +667,13 @@ Six tabs on every lead: **Tasks, Property search, Buckets, Verifications & surve
 
 **2,248** property-to-lead matches in the 30 days to 22 Oct 2026 (**1,887** on 5 Oct).
 
-| ![Property search for a lead, opened filtered from the brief, ranking 11 matches by percentage fit](screenshots/c05-property-search.jpg) | ![Buckets tab: a custom Over budget, ask owner bucket, the automatic Enquired bucket and Shared](screenshots/c05-buckets.jpg) |
-|---|---|
-| Property search opens filtered from the brief and ranks 11 matches by % fit, with how fresh each listing's check is (demo data). | Buckets: a custom “Over budget · ask owner”, the automatic Enquired bucket and Shared, with how far each listing sits from the budget. |
+![Property search for a lead, opened filtered from the brief, ranking 11 matches by percentage fit](screenshots/c05-property-search.jpg)
+
+*Property search opens filtered from the brief and ranks 11 matches by % fit, with how fresh each listing's check is (demo data).*
+
+![Buckets tab: a custom Over budget, ask owner bucket, the automatic Enquired bucket and Shared](screenshots/c05-buckets.jpg)
+
+*Buckets: a custom “Over budget · ask owner”, the automatic Enquired bucket and Shared, with how far each listing sits from the budget.*
 
 <p align="center">
   <img src="screenshots/c05-m-verifications.jpg" alt="Verifications on a phone, sorted into available, not available, in progress and not asked yet" width="280"><br>
